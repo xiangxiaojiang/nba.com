@@ -9,7 +9,7 @@ function show(){
 
 function change(){
 	$(".n-tu").css({
-		"background":"url(images/news/"+index+".jpg)"	
+		"background":"url(news/"+index+".jpg)"	
     });	
     $("#" + index + "a").addClass("point");
     $("."+index+"zi").css({
