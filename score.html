@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NBA球队新闻</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/nba.css">
+</head>
+<body>
+ <div class="container">
+<!--   导航 -->
+        <div class="row nav">
+            <div class="col-xs-2 ddd" id="1"><a href="index.html"><div style="width: 100%">首页</div></a></div>
+            <div class="col-xs-2 ddd" id="2"><a href="history.html"><div style="width: 100%">资料</div></a></div>
+            <div class="col-xs-2 mouse" id="3"><a href="score.html"><div style="width: 100%">新闻</div></a></div>
+            <div class="col-xs-2 col-xs-push-2 ddd" id="4"><a href="register.html"><div style="width: 100%">注册</div></a></div>
+            <div class="col-xs-2 col-xs-push-2 ddd" id="5"><a href="login.html"><div style="width: 100%">登录</div></a></div>
+        </div>
+<!-- 	内容-->
+		<div class="row n-con">
+		<!-- 	轮播图-->
+			<div class="col-md-8 col-xs-12 center">
+				<div class="n-tu">
+				<!-- 轮播图按钮 -->
+				<button class="btn-l"><</button>
+				<button class="btn-r">></button>
+				<!-- 轮播图字幕 -->
+					<div class="zi">
+					<div class="1zi" style="display: block;">库里手感火热 轰出9记三分砍下40分</div>
+					<div class="2zi" style="display: none;">哈登砍39+12：我的节奏是突到篮下找队友</div>
+					<div class="3zi" style="display: none;">乔治23+9 快船大胜森林狼</div>
+					<div class="4zi" style="display: none;">希罗27+8 热火客场力克爵士</div>
+					<div class="5zi" style="display: none;">利拉德25+5+7 开拓者客场送火箭10连败</div>
+					<div class="6zi" style="display: none;">保罗布克合砍32分 太阳胜灰熊迎来七连胜</div>
+					<div class="7zi" style="display: none;">塔图姆27分 绿军加时胜雄鹿</div>
+					</div>
+				<!-- 轮播图小圆点 -->
+					<div class="t-circle">
+						<div class="circle point" id="1a"></div>
+						<div class="circle" id="2a"></div>
+						<div class="circle" id="3a"></div>
+						<div class="circle" id="4a"></div>
+						<div class="circle" id="5a"></div>
+						<div class="circle" id="6a"></div>
+						<div class="circle" id="7a"></div>
+					</div>
+				</div>
+			</div>
+		<!-- 	战绩表-->
+			<div class="col-md-4 col-xs-4 right">
+				<div class="r-1">联盟排名</div>
+				<div class="r-2 r-hover">东部联盟</div>
+				<div class="r-3">西部联盟</div>
+
+				<!-- 东部战绩 -->
+				<div class="tab1" style="display: block;">
+					<table style="width: 100%;">
+						<tr text-align:center;>
+							<td style="width: 20%; text-align: center;">排名</td>
+							<td style="width: 35%; text-align: center;">队名</td>
+							<td style="width: 10%; text-align: center;">胜</td>
+							<td style="width: 10%; text-align: center;">负</td>
+							<td style="width: 25%; text-align: center;">胜场差</td>
+						</tr>
+					<!-- 排名1 -->
+						<tr style="background-color: #f2f2f2; height:30px;">
+							<td style="text-align: center;background-color: #c9c9c9; "><b>01</b></td>
+							<td><img src="images/team/WAS_logo.svg" width="20px;">&nbsp;&nbsp;奇才</td>
+							<td style="text-align: center;"><b>9</b></td>
+							<td style="text-align: center;"><b>3</b></td>
+							<td style="text-align: center;"><b>0</b></td>
+						</tr>
+					<!-- 排名2 -->
+						<tr style="height:30px;">
+							<td style="text-align: center;background-color: #f1f1f1;"><b>02</b></td>
+							<td><img src="images/team/BKN_logo.svg" width="20px;">&nbsp;&nbsp;篮网</td>
+							<td style="text-align: center;"><b>10</b></td>
+							<td style="text-align: center;"><b>4</b></td>
+							<td style="text-align: center;"><b>0</b></td>
+						</tr>
+					<!-- 排名3 -->
+						<tr style="background-color: #f2f2f2; height:30px;">
+							<td style="text-align: center;background-color: #c9c9c9; "><b>03</b></td>
+							<td><img src="images/team/CHI_logo.svg" width="20px;">&nbsp;&nbsp;公牛</td>
+							<td style="text-align: center;"><b>9</b></td>
+							<td style="text-align: center;"><b>4</b></td>
+							<td style="text-align: center;"><b>0.5</b></td>
+						</tr>
+					<!-- 排名4 -->
+						<tr style="height:30px;">
+							<td style="text-align: center;background-color: #f1f1f1; "><b>04</b></td>
+							<td><img src="images/team/CLE_logo.svg" width="20px;">&nbsp;&nbsp;骑士</td>
+							<td style="text-align: center;"><b>9</b></td>
+							<td style="text-align: center;"><b>5</b></td>
+							<td style="text-align: center;"><b>1</b></td>
+						</tr>
+					<!-- 排名5 -->
+						<tr style="background-color: #f2f2f2; height:30px;">
+							<td style="text-align: center;background-color: #c9c9c9; "><b>05</b></td>
+							<td><img src="images/team/MIA_logo.svg" width="20px;">&nbsp;&nbsp;热火</td>
+							<td style="text-align: center;"><b>8</b></td>
+							<td style="text-align: center;"><b>5</b></td>
+							<td style="text-align: center;"><b>1.5</b></td>
+						</tr>
+					<!-- 排名6 -->
+						<tr style="height:30px;">
+							<td style="text-align: center;background-color: #f1f1f1; "><b>06</b></td>
+							<td><img src="images/team/PHI_logo.svg" width="20px;">&nbsp;&nbsp;76人</td>
+							<td style="text-align: center;"><b>8</b></td>
+							<td style="text-align: center;"><b>6</b></td>
+							<td style="text-align: center;"><b>2</b></td>
+						</tr>
+					<!-- 排名7 -->
+						<tr style="background-color: #f2f2f2; height:30px;">
+							<td style="text-align: center;background-color: #c9c9c9; "><b>07</b></td>
+							<td><img src="images/team/NYK_logo.svg" width="20px;">&nbsp;&nbsp;尼克斯</td>
+							<td style="text-align: center;"><b>7</b></td>
+							<td style="text-align: center;"><b>6</b></td>
+							<td style="text-align: center;"><b>2.5</b></td>
+						</tr>
+					<!-- 排名8 -->
+						<tr style="height:30px;">
+							<td style="text-align: center;background-color: #f1f1f1; "><b>08</b></td>
+							<td><img src="images/team/CHA_logo.svg" width="20px;">&nbsp;&nbsp;黄蜂</td>
+							<td style="text-align: center;"><b>8</b></td>
+							<td style="text-align: center;"><b>7</b></td>
+							<td style="text-align: center;"><b>2.5</b></td>
+						</tr>
+					<!-- 排名9 -->
+						<tr style="background-color: #f2f2f2; height:30px;">
+							<td style="text-align: center;background-color: #c9c9c9; "><b>09</b></td>
+							<td><img src="images/team/TOR_logo.svg" width="20px;">&nbsp;&nbsp;猛龙</td>
+							<td style="text-align: center;"><b>7</b></td>
+							<td style="text-align: center;"><b>7</b></td>
+							<td style="text-align: center;"><b>3</b></td>
+						</tr>
+					<!-- 排名10 -->
+						<tr style="height:30px;">
+							<td style="text-align: center;background-color: #f1f1f1; "><b>10</b></td>
+							<td><img src="images/team/BOS_logo.svg" width="20px;">&nbsp;&nbsp;凯尔特人</td>
+							<td style="text-align: center;"><b>6</b></td>
+							<td style="text-align: center;"><b>7</b></td>
+							<td style="text-align: center;"><b>3.5</b></td>
+						</tr>
+					<!-- 排名11 -->
+						<tr style="background-color: #f2f2f2; height:30px;">
+							<td style="text-align: center;background-color: #c9c9c9; "><b>11</b></td>
+							<td><img src="images/team/MIL_logo.svg" width="20px;">&nbsp;&nbsp;雄鹿</td>
+							<td style="text-align: center;"><b>6</b></td>
+							<td style="text-align: center;"><b>8</b></td>
+							<td style="text-align: center;"><b>4</b></td>
+						</tr>
+					<!-- 排名12 -->
+						<tr style="height:30px;">
+							<td style="text-align: center;background-color: #f1f1f1; "><b>12</b></td>
+							<td><img src="images/team/IND_logo.svg" width="20px;">&nbsp;&nbsp;步行者</td>
+							<td style="text-align: center;"><b>6</b></td>
+							<td style="text-align: center;"><b>8</b></td>
+							<td style="text-align: center;"><b>4</b></td>
+						</tr>
+					<!-- 排名13 -->
+						<tr style="background-color: #f2f2f2; height:30px;">
+							<td style="text-align: center;background-color: #c9c9c9; "><b>13</b></td>
+							<td><img src="images/team/ATL_logo.svg" width="20px;">&nbsp;&nbsp;老鹰</td>
+							<td style="text-align: center;"><b>5</b></td>
+							<td style="text-align: center;"><b>9</b></td>
+							<td style="text-align: center;"><b>5</b></td>
+						</tr>
+					<!-- 排名14 -->
+						<tr style="height:30px;">
+							<td style="text-align: center;background-color: #f1f1f1; "><b>14</b></td>
+							<td><img src="images/team/DET_logo.svg" width="20px;">&nbsp;&nbsp;活塞</td>
+							<td style="text-align: center;"><b>3</b></td>
+							<td style="text-align: center;"><b>9</b></td>
+							<td style="text-align: center;"><b>6</b></td>
+						</tr>
+					<!-- 排名15 -->
+						<tr style="background-color: #f2f2f2; height:30px;">
+							<td style="text-align: center;background-color: #c9c9c9; "><b>15</b></td>
+							<td><img src="images/team/ORL_logo.svg" width="20px;">&nbsp;&nbsp;魔术</td>
+							<td style="text-align: center;"><b>3</b></td>
+							<td style="text-align: center;"><b>10</b></td>
+							<td style="text-align: center;"><b>6.5</b></td>
+						</tr>
+					</table>
+				</div>
+
+				<!-- 西部战绩 -->
+				<div class="tab2" style="display: none;">
+					<table style="width: 100%;">
+						<tr text-align:center;>
+							<td style="width: 20%; text-align: center;">排名</td>
+							<td style="width: 35%; text-align: center;">队名</td>
+							<td style="width: 10%; text-align: center;">胜</td>
+							<td style="width: 10%; text-align: center;">负</td>
+							<td style="width: 25%; text-align: center;">胜场差</td>
+						</tr>
+					<!-- 排名1 -->
+						<tr style="background-color: #f2f2f2; height:30px;">
+							<td style="text-align: center;background-color: #c9c9c9; "><b>01</b></td>
+							<td><img src="images/team/GSW_logo.svg" width="20px;">&nbsp;&nbsp;勇士</td>
+							<td style="text-align: center;"><b>11</b></td>
+							<td style="text-align: center;"><b>2</b></td>
+							<td style="text-align: center;"><b>0</b></td>
+						</tr>
+					<!-- 排名2 -->
+						<tr style="height:30px;">
+							<td style="text-align: center;background-color: #f1f1f1;"><b>02</b></td>
+							<td><img src="images/team/PHX_logo.svg" width="20px;">&nbsp;&nbsp;太阳</td>
+							<td style="text-align: center;"><b>10</b></td>
+							<td style="text-align: center;"><b>3</b></td>
+							<td style="text-align: center;"><b>1</b></td>
+						</tr>
+					<!-- 排名3 -->
+						<tr style="background-color: #f2f2f2; height:30px;">
+							<td style="text-align: center;background-color: #c9c9c9; "><b>03</b></td>
+							<td><img src="images/team/DAL_logo.svg" width="20px;">&nbsp;&nbsp;独行侠</td>
+							<td style="text-align: center;"><b>9</b></td>
+							<td style="text-align: center;"><b>4</b></td>
+							<td style="text-align: center;"><b>2</b></td>
+						</tr>
+					<!-- 排名4 -->
+						<tr style="height:30px;">
+							<td style="text-align: center;background-color: #f1f1f1; "><b>04</b></td>
+							<td><img src="images/team/DEN_logo.svg" width="20px;">&nbsp;&nbsp;掘金</td>
+							<td style="text-align: center;"><b>9</b></td>
+							<td style="text-align: center;"><b>5</b></td>
+							<td style="text-align: center;"><b>2.5</b></td>
+						</tr>
+					<!-- 排名5 -->
+						<tr style="background-color: #f2f2f2; height:30px;">
+							<td style="text-align: center;background-color: #c9c9c9; "><b>05</b></td>
+							<td><img src="images/team/UTA_logo.svg" width="20px;">&nbsp;&nbsp;爵士</td>
+							<td style="text-align: center;"><b>8</b></td>
+							<td style="text-align: center;"><b>5</b></td>
+							<td style="text-align: center;"><b>3</b></td>
+						</tr>
+					<!-- 排名6 -->
+						<tr style="height:30px;">
+							<td style="text-align: center;background-color: #f1f1f1; "><b>06</b></td>
+							<td><img src="images/team/LAC_logo.svg" width="20px;">&nbsp;&nbsp;快船</td>
+							<td style="text-align: center;"><b>8</b></td>
+							<td style="text-align: center;"><b>5</b></td>
+							<td style="text-align: center;"><b>3</b></td>
+						</tr>
+					<!-- 排名7 -->
+						<tr style="background-color: #f2f2f2; height:30px;">
+							<td style="text-align: center;background-color: #c9c9c9; "><b>07</b></td>
+							<td><img src="images/team/LAL_logo.svg" width="20px;">&nbsp;&nbsp;湖人</td>
+							<td style="text-align: center;"><b>8</b></td>
+							<td style="text-align: center;"><b>6</b></td>
+							<td style="text-align: center;"><b>3.5</b></td>
+						</tr>
+					<!-- 排名8 -->
+						<tr style="height:30px;">
+							<td style="text-align: center;background-color: #f1f1f1; "><b>08</b></td>
+							<td><img src="images/team/MEM_logo.svg" width="20px;">&nbsp;&nbsp;灰熊</td>
+							<td style="text-align: center;"><b>7</b></td>
+							<td style="text-align: center;"><b>7</b></td>
+							<td style="text-align: center;"><b>4.5</b></td>
+						</tr>
+					<!-- 排名9 -->
+						<tr style="background-color: #f2f2f2; height:30px;">
+							<td style="text-align: center;background-color: #c9c9c9; "><b>09</b></td>
+							<td><img src="images/team/SAC_logo.svg" width="20px;">&nbsp;&nbsp;国王</td>
+							<td style="text-align: center;"><b>6</b></td>
+							<td style="text-align: center;"><b>8</b></td>
+							<td style="text-align: center;"><b>5.5</b></td>
+						</tr>
+					<!-- 排名10 -->
+						<tr style="height:30px;">
+							<td style="text-align: center;background-color: #f1f1f1; "><b>10</b></td>
+							<td><img src="images/team/POR_logo.svg" width="20px;">&nbsp;&nbsp;开拓者</td>
+							<td style="text-align: center;"><b>6</b></td>
+							<td style="text-align: center;"><b>8</b></td>
+							<td style="text-align: center;"><b>5.5</b></td>
+						</tr>
+					<!-- 排名11 -->
+						<tr style="background-color: #f2f2f2; height:30px;">
+							<td style="text-align: center;background-color: #c9c9c9; "><b>11</b></td>
+							<td><img src="images/team/OKC_logo.svg" width="20px;">&nbsp;&nbsp;雷霆</td>
+							<td style="text-align: center;"><b>5</b></td>
+							<td style="text-align: center;"><b>8</b></td>
+							<td style="text-align: center;"><b>6</b></td>
+						</tr>
+					<!-- 排名12 -->
+						<tr style="height:30px;">
+							<td style="text-align: center;background-color: #f1f1f1; "><b>12</b></td>
+							<td><img src="images/team/MIN_logo.svg" width="20px;">&nbsp;&nbsp;森林狼</td>
+							<td style="text-align: center;"><b>4</b></td>
+							<td style="text-align: center;"><b>9</b></td>
+							<td style="text-align: center;"><b>7</b></td>
+						</tr>
+					<!-- 排名13 -->
+						<tr style="background-color: #f2f2f2; height:30px;">
+							<td style="text-align: center;background-color: #c9c9c9; "><b>13</b></td>
+							<td><img src="images/team/SAS_logo.svg" width="20px;">&nbsp;&nbsp;马刺</td>
+							<td style="text-align: center;"><b>4</b></td>
+							<td style="text-align: center;"><b>9</b></td>
+							<td style="text-align: center;"><b>7</b></td>
+						</tr>
+					<!-- 排名14 -->
+						<tr style="height:30px;">
+							<td style="text-align: center;background-color: #f1f1f1; "><b>14</b></td>
+							<td><img src="images/team/NOP_logo.svg" width="20px;">&nbsp;&nbsp;鹈鹕</td>
+							<td style="text-align: center;"><b>2</b></td>
+							<td style="text-align: center;"><b>13</b></td>
+							<td style="text-align: center;"><b>10</b></td>
+						</tr>
+					<!-- 排名15 -->
+						<tr style="background-color: #f2f2f2; height:30px;">
+							<td style="text-align: center;background-color: #c9c9c9; "><b>15</b></td>
+							<td><img src="images/team/HOU_logo.svg" width="20px;">&nbsp;&nbsp;火箭</td>
+							<td style="text-align: center;"><b>1</b></td>
+							<td style="text-align: center;"><b>13</b></td>
+							<td style="text-align: center;"><b>10.5</b></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		<!--    新闻内容 -->
+			<div class="col-xs-8 left">
+				<h3>资讯</h3>
+				<hr>
+
+				<div class="col-md-4 col-xs-6"><div class="n-1">
+					<img src="images/news/zx-1.jpg">
+					<p>詹姆斯训练状态不错 有望在近日复出</p>
+				</div></div>
+				<div class="col-md-4 col-xs-6"><div class="n-1">
+					<img src="images/news/zx-2.jpg">
+					<p>库里三分登顶倒计时</p>
+				</div></div>
+				<div class="col-md-4 col-xs-6"><div class="n-1">
+					<img src="images/news/zx-3.jpg">
+					<p>MVP榜：杜兰特位列第一 库里第二 约老师飙升至第三</p>
+				</div></div>
+				<div class="col-md-4 col-xs-6"><div class="n-1">
+					<img src="images/news/zx-4.jpg">
+					<p>鹈鹕核心-锡安威廉姆斯将在12月复出</p>
+				</div></div>
+				<div class="col-md-4 col-xs-6"><div class="n-1">
+					<img src="images/news/zx-5.jpg">
+					<p>乔治27分5助攻 帮助快船险胜热火赢得六连胜</p>
+				</div></div>
+				<div class="col-md-4 col-xs-6"><div class="n-1">
+					<img src="images/news/zx-6.jpg">
+					<p>威少25分三双 塔克27分 湖人加时赛险胜热火</p>
+				</div></div>
+				<div class="col-md-4 col-xs-6"><div class="n-1">
+					<img src="images/news/zx-7.jpg">
+					<p>约老师拿下22+19+10三双 掘金胜老鹰豪取四连胜</p>
+				</div></div>
+				<div class="col-md-4 col-xs-6"><div class="n-1">
+					<img src="images/news/zx-8.jpg">
+					<p>拉文最近状态火热23分帮助公牛力克独行侠</p>
+				</div></div>
+				<div class="col-md-4 col-xs-6"><div class="n-1">
+					<img src="images/news/zx-9.jpg">
+					<p>字母哥31+16 阿伦25分 雄鹿险胜76人</p>
+				</div></div>
+			</div>
+		</div>
+
+</div>
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/new.js"></script>
+</body>
+</html>
