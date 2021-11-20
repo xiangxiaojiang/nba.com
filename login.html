@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>登录</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<style type="text/css">
+		body{
+			background-image: url(images/login.jpg);
+			background-size: cover;
+			background-repeat: repeat;
+		}
+		.con{
+			height: 50%;
+			background-color: white;
+			opacity: 0.9;
+			position: fixed;
+			top: 25%;
+			left: 30%;
+		}
+		.f{
+			width: 60%;
+			position: absolute;
+			top: 15%;
+			left: 20%;
+		}
+		.f button{
+			width: 100%;
+			height: 40px;
+			background-color: #ff2400;
+			border: red;
+			font-size: 18px;
+			color: white;
+		}
+		.f a{
+			text-decoration: none;
+			float: right;
+		}
+		.index{
+			width: 100px;
+			height: 30px;
+			background-color: green;
+			line-height: 30px;
+			text-align: center;
+			position: absolute;
+			top: 30px;
+		}
+		body a{
+			text-decoration: none;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+<a href="index.html"><div class="index">回到首页</div></a>
+<div class="container">
+	<div class="row">
+		<div class="col-xs-6 col-md-5 con">
+		<div class="f">
+			<form>
+				<input type="text" name="text" placeholder="请输入账号/手机号/邮箱" style="height: 40px;width: 100%;">
+				<br>
+				<br>
+				<input type="password" name="password" placeholder="请输入密码" style="height: 40px;width: 100%;">
+				<br>
+				<br>
+				<button>登录</button>
+				<br>
+				<br>
+				<a href="register.html">免费注册</a>
+			</form>
+			</div>
+		</div>
+	</div>	
+</div>
+</body>
+</html>
