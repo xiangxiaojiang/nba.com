@@ -1,0 +1,161 @@
+body{
+	background-color:#f1f1f1;
+}
+.nav{
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 25px;
+	background: #c0c0c0;
+	margin-top: 30px;
+}
+.nav a{
+	text-decoration: none;
+	color: black;
+}
+.ddd:hover{
+	background-color: #a8a8a8;
+}
+.mouse{
+	background-color: grey;
+}
+.con a{
+	text-decoration: none;
+}
+.con{
+	margin: 20px;
+	background-color: white;
+	text-align: center;
+	box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.2);
+}
+.row h2{
+	text-align: center;
+	text-shadow: 2px 2px 2px grey;
+}
+.return{
+			width: 70px;
+			height: 60px;
+			opacity: 0.8;
+			position: fixed;
+			bottom: 4%;
+			right: 5%;
+}
+.return:hover{
+	opacity: 1;
+}
+
+/* 新闻页面 */
+.n-con{
+	margin-top: 30px;
+}
+.center{
+	height: 400px;
+	background-color: white;
+}
+.right{
+	background-color: white;
+	height: 547px;
+	float: right;
+	padding: 0px;
+}
+.right a{
+	text-decoration: none;
+	color: black;
+}
+.left{
+	background-color: white;
+	height: 100%;
+	float: left;
+}
+.n-tu{
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+	background:url(../images/news/1.jpg);
+	position: relative;
+}
+.n-tu button{
+	width: 6%;
+	height: 10%;
+	opacity: 0.3;
+	border: 0px ;
+}
+.n-tu button:hover{
+	opacity: 1;
+}
+.btn-l{
+	position: absolute;
+	top: 45%;
+}
+.btn-r{
+	position: absolute;
+	top: 45%;
+	right: 0%;
+}
+.zi{
+	width: 90%;
+	height: 10%;
+	position: absolute;
+	left: 8%;
+	bottom: 30px;
+	color: white;
+	font-size: 25px;
+}
+.t-circle{
+	position: absolute;
+	left: 40%;
+	bottom: 8px;
+}
+.circle{
+	width: 12px;
+	height: 12px;
+	background: white;
+	border-radius: 12px;
+	float: left;
+	margin: 5px;
+	cursor: pointer;
+	opacity: 0.6;
+}
+.point{
+	opacity: 1;
+}
+
+/* 战绩表 */
+.r-1{
+	height: 40px;
+	text-align: center;
+	background-color: #3299cc;
+	color: white;
+	line-height: 40px;
+	font-size: 20px;
+}
+.r-2{
+	float: left;
+	width: 50%;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border-bottom: solid #f1f1f1;
+	cursor: pointer;
+}
+.r-3{
+	float: left;
+	width: 50%;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border-bottom: solid #f1f1f1;
+	cursor: pointer;
+}
+.r-hover{
+	border-bottom: 3px solid #bc1717;
+}
+.n-1{
+	height: 150px;
+	background-color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.n-1 img{
+	width: 100%;
+}
