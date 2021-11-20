@@ -71,7 +71,7 @@ body{
 	width: 90%;
 	height: 100%;
 	margin: 0 auto;
-	background:url(../images/news/1.jpg);
+	background:url(news/1.jpg);
 	position: relative;
 }
 .n-tu button{
